@@ -1,0 +1,368 @@
+/* universal style  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar style  */
+.home-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 205px;
+    padding-right: 75px;
+}
+
+.header-logo img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 25px;
+    margin-right: 20px;
+    top: 3px;
+    z-index:1;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item li {
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.nav-item img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+/* content style  */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image-logo img {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-drink-1 img {
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* text content style */
+.text-content .inner-text {
+    position: absolute;
+    top: 18%;
+    right: 18%;
+}
+
+.inner-text .bold-text {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.inner-text .uppercase-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+/* contact section  */
+.contact-section {
+    color: #F2C158;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.contact-text,
+.number,
+.email {
+    padding-bottom: 5px;
+}
+
+.social-section {
+    display: flex;
+    justify-content: center;
+}
+
+.social-section img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social-section .fb,
+.ig {
+    margin-right: 10px;
+}
+
+/* footer style  */
+.footer-section {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    font-size: 0.8rem;
+
+}
+
+.footer-section .mini-text {
+    padding-right: 10px;
+}
+
+/* About section style  */
+.about-body,body {
+    background-color: gainsboro;
+}
+/* body content style  */
+.body-content {
+    padding-left: 125px;
+    padding-top: 100px;
+    padding-right: 125px;
+}
+.body-content h2 {
+    padding-bottom: 40px;
+}
+.body-content .answer-text {
+    font-size: 1.3rem;
+}
+/* social section style  */
+.all-social-section img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.all-social-section{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+/* menu style  */
+.side-bar{
+    background-color: black;
+    position: fixed;
+    color: white;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 35px;
+    height: 100vh;
+}
+.side-bar h3{
+    color: #F2C158;
+    margin-bottom: 15px;
+}
+.side-bar .divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: white;
+}
+.side-bar .food-heading{
+    margin-top: 15px;
+}
+.side-bar a{
+    text-decoration: none;
+    color: white;
+}
+.side-bar li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+/* menu content  */
+.menu-section{
+    margin-left: 280px;
+    margin-top: 15px;
+    padding-right: 120px;
+    margin-bottom: 40px;
+}
+.menu-section h2{
+    padding-bottom: 15px;
+}
+.menu-section .divider{
+    height: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.menu-section .drinks,.foods {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-section .drinks .circle-1{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(4, 76, 47);
+    border-radius: 50%;
+    text-align: center;
+}
+.circle-1 img{
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.menu-section .foods .circle-1{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(4, 76, 47);
+    border-radius: 50%;
+    text-align: center;
+}
+.food-text{
+    padding-top: 40px;
+}
+/* espresso drinks  */
+.link-text{
+    padding-bottom: 20px;
+}
+.drinks-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.item{
+    margin-bottom: 12px;
+}
+/* cart style  */
+.cart-content{
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top:40px;
+}
+.cart-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2C158;
+    padding: 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.cart-item,.cart-item-2,.cart-item-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.cart-item .price{
+    margin-left: -55px;
+}
+.cart-item-2 .price{
+    margin-left: -55px;
+}
+.cart-item-3 .price{
+    margin-left: -55px;
+}
+
+.cart-item img,.cart-item-2 img,.cart-item-3 img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+.cart-item input{
+    margin-left: -100px;
+    width:60px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #F2C158;
+    color: black;
+}
+.cart-item-2 input{
+    margin-left: -50px;
+    width:60px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #F2C158;
+    color: black;
+}
+.cart-item-3 input{
+    margin-left: -100px;
+    width:60px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #F2C158;
+    color: black;
+}
+.cart-item-3 .Toastie-text{
+    margin-left: -8px;
+}
+.cart-summary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F2C158;
+}
+.cart-summary .proceed-text{
+    display: flex;
+    justify-content: space-around;
+}
+.proceed-text button{
+    margin-left: 10px;
+    margin-top: -2px;
+    width: 140px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+}
+.total p{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.cart-content .divider-cart{
+    background-color: white;
+    height: 2px;
+    border: none;
+}

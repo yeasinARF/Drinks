@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar section  -->
+    <div class="navbar">
+        <div class="nav-content">
+            <ul class="nav-item">
+                <a href="Menu.html">
+                    <li>Menu</li>
+                </a>
+                <a href="About.html">
+                    <li>About Us</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav-item">
+                <a href="SignUp.html">
+                    <li>Sign up</li>
+                </a>
+                <a href="">
+                    <li>Sign in</li>
+                </a>
+                <a href="Cart.html"><img src="/image/shopping-cart.png" alt="" srcset=""></a>
+            </ul>
+        </div>
+    </div>
+    <div class="header-logo">
+        <a href="index.html"><img src="/image/logo.png" alt="" srcset=""></a>
+    </div>
+    <!-- content section  -->
+    <div class="sign-in">
+        <a href="SignUp.html">
+            <div class="register">
+                Sign up
+            </div>
+        </a>
+        <a href="SignIn.html">
+            <div class="logIn">
+                Sign in
+            </div>
+        </a>
+    </div>
+    <form onsubmit="handleSignIn()" action="index.html" class="signin-form">
+        <div>
+            <label for="">Email or Phone number:</label>
+            <input type="text" required id="email-signIn"><br>
+            <label for="" class="password-label" >Password:</label>
+            <input type="password" class="password" id="password-signIn" required><br>
+            <div class="button-box">
+                <button type="submit" >
+                    Sign In
+                </button>
+            </div>
+        </div>
+    </form>
+    <!-- social section  -->
+    <div class="all-social-section">
+        <a href=""><img class="fb" src="/image/facebook.png" alt="" srcset=""></a>
+        <a href=""><img class="ig" src="/image/instagram.png" alt="" srcset=""></a>
+        <a href=""><img src="/image/twitter.png" alt="" srcset=""></a>
+    </div>
+    <!-- footer section  -->
+    <div class="footer-section">
+        <span class="mini-text">Privacy Policy</span>
+        <span>Term of use</span>
+    </div>
+    <script src="SignIn.js"></script>
+</body>
+
+</html>

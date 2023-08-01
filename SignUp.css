@@ -1,0 +1,146 @@
+
+.sign-in,.sign-up{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signUp,.signIn,.delivery,.payment,.register,.logIn{
+    border: 2px solid black;
+    width: 340px;
+    height: 35px;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    
+}
+.payment{
+    background-color: #FFE17B;
+}
+.signUp,.logIn{
+    background-color: #FFE17B;
+    
+}
+.sign-up a,.sign-in a{
+    text-decoration: none;
+    color: black;
+}
+.signIn,.register{
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+input{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    border: none;
+    margin-right: 2px;
+
+}
+#email{
+    margin-left: 43px;
+}
+#phone-number{
+    margin-left: 39px;
+}
+#password{
+    margin-left: 10px;
+}
+#repeat-password{
+    margin-left: 20px;
+    width: 528px;
+}
+input:focus{
+    outline-color: #FFE17B;
+}
+.password{
+    margin-left: 120px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button{
+    width: 170px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #FFE17B;
+    cursor: pointer;
+}
+/* sign in form  */
+.signin-form{
+    display: flex;
+    justify-content: center;
+}
+#email-signIn,#password-signIn{
+    margin-top: 20px;
+    width: 480px;
+}
+/* delivery style  */
+.delivery-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.delivery-head{
+    background-color: white;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#first-name-delivery,#last-name-delivery{
+    width: 650px;
+}
+#housenumber-delivery{
+    width: 520px;
+}
+#city-delivery{
+    width: 704px;
+}
+#postcode-delivery{
+    width: 536px;
+}
+#phone-delivery{
+    width: 562px;
+}
+
+/* payment style  */
+.payment-body label{
+    font-size: 0.9rem;
+}
+.card-payment input{
+    
+    width: 20px;
+}
+.card-payment{
+    display: flex;
+}
+.card-payment label{
+    padding-top: 12px;
+    padding-left: 10px;
+    
+}
+.button-payment{
+    margin-top: -30px;
+}

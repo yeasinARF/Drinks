@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-body">
+    <!-- Navbar section  -->
+    <div class="navbar">
+        <div class="nav-content">
+            <ul class="nav-item">
+                <a href="Menu.html"><li>Menu</li></a>
+                <a href="About.html"><li>About Us</li></a>
+            </ul>
+        </div>
+        <div>
+            <ul class="nav-item">
+                <a href="SignUp.html"><li>Sign up</li></a>
+                <a href="SignIn.html"><li>Sign in</li></a>
+                <a href="Cart.html"><img src="/image/shopping-cart.png" alt="" srcset=""></a>
+            </ul>
+        </div>
+    </div>
+    <div class="header-logo">
+        <a href="index.html"><img src="/image/logo.png" alt="" srcset=""></a>
+    </div>
+    <!-- content section  -->
+    <div class="cart-content">
+        <div class="cart-heading">
+            <p>Item</p>
+            <p>QTY</p>
+            <p>Price</p>
+            <p>Total Price</p>
+            <p>Action</p>
+        </div>
+        <div class="cart-item">
+            <p>Hot Chocolate</p>
+            <input type="number"  name="" value="1" id="qty" onchange="handleChange()">
+            <p class="price">£<span id="price">4.50</span></p>
+            <p class="total-price" >£<span id="subTotalPrice">4.50</span></p>
+            <p><img src="/image/bin.png" alt="" srcset=""></p>
+        </div>
+        <hr class="divider-cart">
+        <div class="cart-item-2">
+            <p>Muffins</p>
+            <input type="number" name="" value="1" id="qty-item-2" onchange="handlePrice()">
+            <p class="price">£<span id="item-2-price">3.50</span></p>
+            <p class="total-price">£<span id="subTotalPrice-item-2">3.50</span></p>
+            <p><img src="/image/bin.png" alt="" srcset=""></p>
+        </div>
+        <hr class="divider-cart">
+        <div class="cart-item-3">
+            <p class="Toastie-text">Chesse Toastie</p>
+            <input type="number" name="" value="1" id="qty-item-3" onchange="handleItemPrice()">
+            <p class="price">£<span id="item-3-price">2.80</span></p>
+            <p class="total-price">£<span id="subTotalPrice-item-3">2.80</span></p>
+            <p><img src="/image/bin.png" alt="" srcset=""></p>
+        </div>
+        
+    </div>
+    <div class="cart-summary">
+        <div class="proceed-text">
+            <p>Proceed to</p>
+            <button onclick="handleCheckout()">Checkout</button>
+        </div>
+        <div class="total">
+            <div>
+                <p>Subtotal</p>
+                <p>Delivery</p>
+                <p>Order Total</p>
+            </div>
+            <div>
+                <p id="total-item-price">£10.80</p>
+                <p>£<span id="delivery-fee">3</span></p>
+                <p id="total-all">£13.80</p>
+            </div>
+        </div>
+    </div>
+    <!-- social section  -->
+    <div class="all-social-section">
+        <a href=""><img class="fb" src="/image/facebook.png" alt="" srcset=""></a>
+        <a href=""><img class="ig" src="/image/instagram.png" alt="" srcset=""></a>
+        <a href=""><img src="/image/twitter.png" alt="" srcset=""></a>
+    </div>
+    <!-- footer section  -->
+    <div class="footer-section">
+        <span class="mini-text">Privacy Policy</span>
+        <span>Term of use</span>
+    </div>
+    <!-- cart js  -->
+    <script src="Cart.js"></script>
+</body>
+</html>
